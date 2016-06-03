@@ -1,5 +1,7 @@
 # Let, Const, y Var
 
+## Introducción
+
 Como primera mejora la especificación vamos a introducirlos a las nuevas maneras de declarar variables.
 
 ## var
@@ -11,7 +13,7 @@ alert(s);
 
 ## let
 
-let nos permite declarar variables con alcance de bloque.
+let nos permite declarar variables con alcance de bloque, declaración o expresión donde se utilice.
 
 ```javascript
 var s = "JavaScript syntax highlighting";
@@ -43,3 +45,7 @@ PI > 3.0;
 const PI = 3.141593;
 PI > 3.0;
 ```
+
+## Desafios
+
+1. << Acá van los desafios, al menos uno por tema si es que se pueda >>
