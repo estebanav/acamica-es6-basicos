@@ -30,7 +30,7 @@ const objeto = {
     texto: "esto es un objeto"
 }
 
-objecto = {
+objeto = {
     texto: "y esto es otro objeto"
 } // NO ES VÁLIDO
 
