@@ -23,7 +23,7 @@ alert(s);
 ## const
 
 const nos permitira de ahora en más la declaración de constantes. Cualquier intento de asignación posterior a la declaración
-de la constante se penalizara con una excepción. En el caso de las declaraciones de objeto, lo que es constante es la referencia: una vez que se apunta a un objeto, no puede apuntarse a otro. Aun así, el objeto puede cambiar. Por ejemplo:
+de la constante se penalizara con una excepción. En el caso de las declaraciones de objeto, lo que es constante es la referencia: una vez que se apunta a un objeto, no puede apuntarse a otro. Aun así, los atributos del objeto pueden cambiar. Por ejemplo:
 
 ```javascript
 const objeto = {
