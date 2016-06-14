@@ -102,8 +102,9 @@ PI > 3.0;
 ```javascript
 const calcularArea = function(radio){
     var PI = 3.141593;
-    const area = ( radio * 2 ) * PI;
-    return total;
+    const area = ( radio * 2 ) 
+    area = area * PI;
+    return area;
 }
 console.log('El valor de PI es ' + PI + ' y de un circulo con radio ' +  3  + 
             ' el valor del area es: ' + calcularArea(3) );
@@ -114,7 +115,8 @@ Solucion:
 const PI = 3.141593;
 
 const calcularArea = function(radio){    
-    let area = ( radio * 2 ) * PI;
+    let area = ( radio * 2 ) 
+    area = area * PI;
     return area;
 }
 console.log('El valor de PI es ' + PI + ' y de un circulo con radio ' + 3  + 
