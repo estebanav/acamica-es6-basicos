@@ -71,9 +71,9 @@ const objeto = {
 
 objeto = {
     texto: "y esto es otro objeto"
-} // NO ES VÁLIDO
+} // NO es válido
 
-objeto.texto = "esto es un cambio válido de un atributo, pero el mismo objeto" // VÁLIDO
+objeto.texto = "esto es un cambio válido de un atributo, pero el mismo objeto" // ES válido
 ```
 
 ### ES5
@@ -113,7 +113,7 @@ Solucion:
 ```javascript
 const PI = 3.141593;
 
-var calcularArea = function(radio){    
+const calcularArea = function(radio){    
     let area = ( radio * 2 ) * PI;
     return area;
 }
