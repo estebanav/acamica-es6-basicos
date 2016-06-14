@@ -123,3 +123,21 @@ console.log('El valor de PI es ' + PI + ' y de un circulo con radio ' + 3  +
             ' el valor del area es: ' + calcularArea(3) );
 
 ```
+
+2. Como mejoria/limitaria el alcance de la variable i:
+
+```javascript
+for(var i = 0; i < 10; i++) {
+  foo[i].onclick = function() {
+    console.log(i);
+  };
+}
+```
+Solucion:
+```javascript
+for(let i = 0; i < 10; i++) {
+  foo[i].onclick = function() {
+    console.log(i);
+  };
+}
+```
