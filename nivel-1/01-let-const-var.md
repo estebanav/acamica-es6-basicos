@@ -105,7 +105,8 @@ const calcularArea = function(radio){
     const area = ( radio * 2 ) * PI;
     return total;
 }
-console.log('El valor de PI es ' + PI + ' y de un circulo con radio ' + 3  + ' el valor del area es: ' + calcularArea(3) );
+console.log('El valor de PI es ' + PI + ' y de un circulo con radio ' +  3  + 
+            ' el valor del area es: ' + calcularArea(3) );
 
 ```
 Solucion:
@@ -116,6 +117,7 @@ var calcularArea = function(radio){
     let area = ( radio * 2 ) * PI;
     return area;
 }
-console.log('El valor de PI es ' + PI + ' y de un circulo con radio ' + 3  + ' el valor del area es: ' + calcularArea(3) );
+console.log('El valor de PI es ' + PI + ' y de un circulo con radio ' + 3  + 
+            ' el valor del area es: ' + calcularArea(3) );
 
 ```
