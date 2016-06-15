@@ -74,3 +74,11 @@ function promedio(...numeros) {
 ## Desafios
 
 1. Implementar en ES6 una función `minimoAbsoluto()` que acepte una cantidad cualquiera de arreglos de números y devuelva el valor más bajo entre todos los elementos de sus parámetros.
+
+Solución
+```javascript
+function minimoAbsoluto(...arreglos) {
+  const minimos = arreglos.map(arreglo => Math.min(...arreglo));
+  return Math.min(...minimos);
+}
+```
