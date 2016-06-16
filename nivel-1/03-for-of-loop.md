@@ -30,8 +30,8 @@ for (var i = 0; i < mylist.length; i++) {
 }
 ```
 
-### Desafios
-**Desafio 1**  
+### Desafíos
+**Desafío 1**  
 Dado el siguiente Map:   
 
 `var mymap = new Map([['k1','val1'],['k2','val2']]);`  
@@ -44,7 +44,7 @@ for (var [k,v] of mymap) {
     console.log(k + ' -> ' + v);
 }
 ```
-**Desafio 2**  
+**Desafío 2**  
 Dado el array:  
 
 `var myarray = ['A', 'B', 'C']`  
